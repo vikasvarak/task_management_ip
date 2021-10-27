@@ -26,7 +26,7 @@ if (!isset($_SESSION['username'])) {
       background-color: #ebf2ff;
     }
   </style>
-  <title>Card example bootstrap</title>
+  <title>taskY</title>
 </head>
 
 <body onload="loadInitialCardData()">
@@ -87,10 +87,10 @@ if (!isset($_SESSION['username'])) {
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="index.html"><strong>home</strong></a>
+            <a class="nav-link" href="index.php"><strong>home</strong></a>
           </li>
         </ul>
-        <button class="btn btn-primary m-lg-2">logout</button>
+        <button class="btn btn-outline-primary m-lg-2"><a href="logout.php">Logout</a></button>
         <button class="btn btn-primary ml-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
           <i class="fas fa-plus mr-2"></i>Add new
         </button>
